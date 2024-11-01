@@ -39,11 +39,11 @@ You can then open `http://localhost:5510` in a web browser to access the dashboa
 To access the dashboard through internet, you need to either setup port forwarding on your router, or use a port forwarding service.
 
 ## Configuration
-There are two things thats configurable. Port number and access username & passwords. \
-\
+There are two things configurable. Port number and access username & passwords. 
+### Port number
 To change port number, edit the file named `.env` with a text editor. Restart the server after saving by: \
 `pm2 restart 0`
-\
+### Access credentials
 To add/change username & password, open the file named `credentials.json` with a text editor and follow the following instructions: \
 By default, the file should look like this:
 ```
