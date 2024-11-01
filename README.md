@@ -21,8 +21,8 @@ cd <folder path here>
 npm install
 ```
 After that, you can use `node build/app.js` to start the server. Press Ctrl-C to stop. \
-It's recommended to use a process manager to manage the server. Here, we will use pm2. \
 \
+It's recommended to use a process manager to manage the server. Here, we will use pm2. \
 First, install pm2: \
 If you are on windows, open powershell as administrator and run: \
 `npm install -g pm2` \
@@ -66,4 +66,4 @@ To change a password, simply replace the old hash with the new hash. \
 Afterwards, save the file and restart the server (if server is managed through pm2, you can restart it by: \
 `pm2 restart 0`\
 \
-If the server crashes afterwards, you likely have missed a double quote or a comma. You can check if everything is correct using a [JSON checker](https://jsonchecker.com/)
+If the server crashes afterwards, you likely have an extra comma or missing a double quote or comma. You can check if everything is correct using a [JSON checker](https://jsonchecker.com/)
