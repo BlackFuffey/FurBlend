@@ -63,7 +63,7 @@ Here, we will add a user named "john", and their password is "superjohncafe"
 To change a username, simply replace the old key name with the new one. \
 To change a password, simply replace the old hash with the new hash. \
 \
-Afterwards, save the file and restart the server (if server is managed through pm2, you can restart it by: \
+Afterwards, save the file and restart the server. If server is managed through pm2, you can restart it by: \
 `pm2 restart 0`\
 \
 If the server crashes afterwards, you likely have an extra comma or missing a double quote or comma. You can check if everything is correct using a [JSON checker](https://jsonchecker.com/)
