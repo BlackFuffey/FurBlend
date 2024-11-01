@@ -3,6 +3,7 @@ Furblend is a web app that lets you render blender projects remotely on your hom
 
 ## Usage
 After the server is up and running, a web interface will be accessible through port `5510`, or the one you specified in environment variable. \
+\
 Default username: `furblend` \
 Defualt password: `000000` 
 
@@ -61,4 +62,6 @@ To change a username, simply replace the old key name with the new one. \
 To change a password, simply replace the old hash with the new hash. \
 \
 Afterwards, save the file and restart the server (if server is managed through pm2, you can restart it by: \
-`pm2 restart 0`
+`pm2 restart 0`\
+\
+If the server crashes afterwards, you likely have missed a double quote or a comma. You can check if everything is correct using a [JSON checker](https://jsonchecker.com/)
