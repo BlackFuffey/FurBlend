@@ -1,5 +1,5 @@
 # Furblend
-Furblend is a web app that lets you render blender projects remotely on your home pc when you are away. \
+Furblend is a web app that lets you render blender projects remotely on your home pc when you are away. 
 
 ## Usage
 After the server is up and running, a web interface will be accessible through port `5510`, or the one you specified in environment variable. \
