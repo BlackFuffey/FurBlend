@@ -26,12 +26,14 @@ It's recommended to use a process manager to manage the server. Here, we will us
 First, install pm2: \
 If you are on windows, open powershell as administrator and run: \
 `npm install -g pm2` \
+\
 If you are on mac or linux, run: \
 `sudo npm install -g pm2` \
+\
 Afterwards, go back to the terminal you opened the folder in, and run: \
 `pm2 start build/app.js` \
 \
-**Congratulations, you now have the server running!** \
+**Congratulations, you now have the server up n running!** \
 You can then open `http://localhost:5510` in a web browser to access the dashboard. \
 
 To access the dashboard anywhere in the world, you need to either setup port forwarding on your router, or use a port forwarding service.
